@@ -1,6 +1,8 @@
 # Route53
 
-[프라이빗 호스팅 영역](Route53%20d2d89978a1ef4bbbac377f5d0c53314f/%E1%84%91%E1%85%B3%E1%84%85%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%87%E1%85%B5%E1%86%BA%20%E1%84%92%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%BC%20%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%A8%20f613b5323ec240c8a5418e7c8ba6e780.md)
+### 프라이빗 호스팅 영역
+
+서비스로 생성한 Route53 내에있는 도메인 및 하위도메인에 대한 VPCs(가상 프라이빗 클라우드)의 DNS 쿼리 응답 정보가 담긴 컨테이너를 말한다.
 
 [Route 53](https://docs.aws.amazon.com/ko_kr/Route53/latest/DeveloperGuide/Welcome.html)은 가용성과 확장성이 우수한 DNS 웹 서비스입니다.다음과 같은 기능을 제공합니다.
 
