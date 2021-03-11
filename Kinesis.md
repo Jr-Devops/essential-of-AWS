@@ -1,8 +1,16 @@
 # Kinesis
 
-[Amazon Kinesis Data Streams](Kinesis%20515a30e60a004f54bd2d866530183399/Amazon%20Kinesis%20Data%20Streams%20a9fa4c21d679435cbe8264c42f603a31.md)
+### Amazon Kinesis Data Streams
 
-[Amazon Kinesis Data Analytic](Kinesis%20515a30e60a004f54bd2d866530183399/Amazon%20Kinesis%20Data%20Analytic%20d4256e9e198e44b795491a8422ddf9c3.md)
+대규모 데이터 기록을 실시간으로 수집하고 처리할 수 있음. (로그, 이벤트 수집기)
+
+### Amazon Kinesis Data Analytic
+
+스트리밍 데이터 분석기, SQL을 통해 실시간 분석, 실시간 대시보등, 실시간 지표등을 생성할 수 있음.
+
+- JSON, CSV파일을 Input으로 받아처리
+- Lambda 함수를 통해 데이터를 사전처리
+- 입력스트림은 병렬화되어 처리량이 크다
 
 [Amazon Kinesis](https://aws.amazon.com/ko/kinesis/)는 실시간 비디오, 실시간 스트리밍 데이터를 수집, 처리, 분석할 수 있는 서비스입니다.하위 기능으로 다음 4가지의 서비스가 제공되는데, 시험에는 주로 Kinesis Data Streams가 많이 나옵니다.
 
