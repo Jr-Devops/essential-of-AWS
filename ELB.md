@@ -6,7 +6,8 @@
 
 - ALB가 사용할 서브넷을 discover하기 위해서는 올바른 태그가 달린 subnet이 존재
 - NLB, CLB가 사용할 서브넷을 설정하기 위해서는 올바른 태그가 달린 subnet이 존재
-- 
+
+
 ![Untitled](https://user-images.githubusercontent.com/37682970/110816057-596b2500-82ce-11eb-8ffb-e12384068693.png)
 
 
