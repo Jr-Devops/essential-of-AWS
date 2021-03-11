@@ -1,8 +1,9 @@
+
 # ALL
 
 ## 글로벌 범위
 
-![ALL%205245966bf71d48fca11bb8a6d218c21f/Untitled.png](ALL%205245966bf71d48fca11bb8a6d218c21f/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/52230415/110814075-7141a980-82cc-11eb-8e49-abefdee8a185.png)
 
 정답 : A, E
 
