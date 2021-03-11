@@ -30,18 +30,20 @@ Amazon S3 버킷을 CloudFront 배포의 오리진으로 처음 설정하면 모
 
 Lambda@Edge를 사용하면 서버를 프로비저닝하거나 관리하지 않고 글로벌 AWS 엣지 로케이션에서 코드를 실행할 수 있으므로 네트워크 지연 시간을 최소화하여 최종 사용자에게 바로 응답할 수 있습니다.Node.js나 Python 코드를 AWS Lambda에 업로드하고 Amazon CloudFront 요청에 대한 응답으로 함수가 트리거되도록 구성하면 됩니다.
 
-![CloudFront%20a93354f51d8f436685c7d844f2506aa0/Untitled.png](CloudFront%20a93354f51d8f436685c7d844f2506aa0/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/37682970/110817466-ac91a780-82cf-11eb-8762-93da2ecf7036.png)
 
-![CloudFront%20a93354f51d8f436685c7d844f2506aa0/Untitled%201.png](CloudFront%20a93354f51d8f436685c7d844f2506aa0/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/37682970/110817482-b0bdc500-82cf-11eb-9445-7ca935e9234c.png)
+
 
 - 원본을 별도 계층. 즉 중간 도메인으로 관리하는 귀찮음을 겪지 않아도 됩니다
 - DNS 레벨의 Health Check에 시달리지 않아도 됩니다. + Health Check하는 계층에게 접근권한을 주지 않아도 됩니다
 - 위 Health Check에서 체크하는 경로와 실제 요청하는 객체의 상태-불일치 문제가 발생하지 않습니다
 - DNS 레벨에서 Failover가 발생한 이후의 롤백을 고민하지 않아도 됩니다. 객체 단위므로 다른 객체는 다시 Primary부터 요청합니다.
 
-![CloudFront%20a93354f51d8f436685c7d844f2506aa0/Untitled%202.png](CloudFront%20a93354f51d8f436685c7d844f2506aa0/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/37682970/110817499-b3b8b580-82cf-11eb-8578-f95a8564a74e.png)
 
-![CloudFront%20a93354f51d8f436685c7d844f2506aa0/Untitled%203.png](CloudFront%20a93354f51d8f436685c7d844f2506aa0/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/37682970/110817503-b61b0f80-82cf-11eb-85c2-b6185a128ab3.png)
+
 
 Amazon CloudFront를 사용하면 콘텐츠, API 또는 애플리케이션을 **SSL/TLS**를 통해 전송 가능함.
 
