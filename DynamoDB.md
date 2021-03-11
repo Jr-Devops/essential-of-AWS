@@ -73,10 +73,11 @@ DAX는 완전 관리형 **In-Memory Read Performance를 향상시켜주는 인�
 
 **스트림과 Lambda를 결합하여** 새로운 유저가 생성된 경우에 SES를 통해 이메일을 보내도록 하는 기능 등을 설계할 수 있습니다.
 
-![DynamoDB%2046826dcfa90c453a9d0926f33c6accf1/Untitled.png](DynamoDB%2046826dcfa90c453a9d0926f33c6accf1/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/37682970/110817274-79e7af00-82cf-11eb-90b0-c192ba6ccd7b.png)
+
 
 [https://social.technet.microsoft.com/wiki/cfs-filesystemfile.ashx/__key/communityserver-wikis-components-files/00-00-00-00-05/6433.sql-vs-nosql.jpg](https://social.technet.microsoft.com/wiki/cfs-filesystemfile.ashx/__key/communityserver-wikis-components-files/00-00-00-00-05/6433.sql-vs-nosql.jpg)
 
 [https://velog.io/@drakejin/DynamoDB에-대해서-알아보자-1](https://velog.io/@drakejin/DynamoDB%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90-1)
 
-![DynamoDB%2046826dcfa90c453a9d0926f33c6accf1/Untitled%201.png](DynamoDB%2046826dcfa90c453a9d0926f33c6accf1/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/37682970/110817293-7f44f980-82cf-11eb-8043-b87f0fb1460e.png)
