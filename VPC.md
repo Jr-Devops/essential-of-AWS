@@ -27,8 +27,8 @@ VPC는 하나 이상의 연속적 IP 주소 범위로 구성되며, CIDR(Classle
 VPC를 만든 후에도 추가적으로 보조 CIDR 블록을 지정할 수 있습니다.보조 CIDR 블록은 기본 CIDR 주소 범위나 퍼블릭에서 라우팅이 가능한 범위 내에서 생성돼야 하고, 기본 블록 또는 다른 보조 블록과 겹치지 않아야 합니다.
 
 ### 서브넷
+![Untitled](https://user-images.githubusercontent.com/37682970/110814445-cb426f00-82cc-11eb-91f8-8cf5b9b9254d.png)
 
-![VPC%2022877aa5ca5e401296aac72aef996338/Untitled.png](VPC%2022877aa5ca5e401296aac72aef996338/Untitled.png)
 
 서브넷은 VPC 내에 있는 논리 컨테이너로 EC2 인스턴스를 배치하는 장소입니다.서브넷을 통해 인스턴스를 서로 격리하고, 인스턴스 간 트래픽 흐름을 제어하고, 인스턴스를 기능별로 모아둘 수 있습니다.
 
