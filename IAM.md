@@ -1,5 +1,5 @@
 # IAM
-
+이론 정리 (https://musma.github.io/2019/11/05/about-aws-iam-policy.html)
 ## UBAC (User-Based Access Control)
 ```
 USER A : Run 가능
